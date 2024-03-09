@@ -10,7 +10,7 @@ import com.lagradost.cloudstream3.LoadResponse.Companion.addActors
 
 class ExampleProvider(val plugin: TestPlugin) : MainAPI() { // all providers must be an intstance of MainAPI
     override var mainUrl = "https://calciostreaming.lol"
-    override var name = "Example sex provide"
+    override var name = "Example sex provid"
     override val supportedTypes = setOf(TvType.Live)
 
     override var lang = "it"
