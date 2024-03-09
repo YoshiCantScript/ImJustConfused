@@ -7,7 +7,7 @@ import com.lagradost.cloudstream3.SearchResponse
 
 class ExampleProvider(val plugin: TestPlugin) : MainAPI() { // all providers must be an intstance of MainAPI
     override var mainUrl = "https://streamingcommunity.li"
-    override var name = "Example sex provider"
+    override var name = "Example sex provide"
     override val supportedTypes = setOf(TvType.TVshows)
 
     override var lang = "it"
